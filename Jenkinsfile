@@ -8,7 +8,7 @@ pipeline {
         IMAGE_NAME = 'app'
         IMAGE_TAG = 'latest'
         RESOURCE_GROUP = 'codecraft-rg'
-        AKS_CLUSTER = 'myAKSCluster'
+        AKS_CLUSTER = 'codecraft-aks'
         TF_WORKING_DIR = './terraform'
     }
 
