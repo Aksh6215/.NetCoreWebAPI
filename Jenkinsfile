@@ -9,7 +9,7 @@ pipeline {
         IMAGE_TAG = 'latest'
         RESOURCE_GROUP = 'codecraft-rg'
         AKS_CLUSTER = 'codecraft-aks'
-        TF_WORKING_DIR = './terraform'
+        TF_WORKING_DIR = './'
     }
 
     stages {
